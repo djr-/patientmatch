@@ -68,7 +68,7 @@ namespace PatientDetector
 
         private async void BeginFaceDetection()
         {
-            await BeginPhotoCapture();
+            await BeginPhotoCapture();  // It would be more convenient if we looped over the images, rather than just capturing an image at the start.
 
             // TODO: Rather than sending every image we take to Cognitive Services, we should use OpenCV on the pi to detect if there is a face in the image before attempting to pass the info to cognitive services.
 
