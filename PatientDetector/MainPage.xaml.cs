@@ -30,7 +30,7 @@ namespace PatientDetector
     {
         private readonly string FACE_IMAGE_FILENAME = "face.jpg";
         private readonly MediaCapture _mediaCapture = new MediaCapture();
-        private readonly IFaceServiceClient _faceServiceClient = new FaceServiceClient("YOUR_KEY_HERE");
+        private readonly IFaceServiceClient _faceServiceClient = new FaceServiceClient("YOUR_KEY_HERE");    //TODO: Update this line with your cognitive services key.
         private readonly uint _roomNumber = 123;
         private string _imageFilePath;
         private RoomOrchestrationService _orchestrationService = new RoomOrchestrationService();

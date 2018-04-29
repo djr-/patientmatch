@@ -28,7 +28,7 @@ namespace PatientDetector
         {
             var fakePatient = new PatientInfo()
             {
-                PatientFaceId = new Guid(),
+                PatientFaceId = new Guid(), //TODO: Update this line with your detected face guid.
                 PatientName = "John Smith",
                 RoomNumber = 123
             };
