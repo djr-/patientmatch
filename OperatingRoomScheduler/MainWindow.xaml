@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Operating Room Scheduler" Height="291.997" Width="450" ResizeMode="CanMinimize">
     <Grid HorizontalAlignment="Left" Margin="0,0,-185,0.5" Width="450">
-        <Button Content="Schedule" HorizontalAlignment="Left" Margin="10,228,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Schedule" HorizontalAlignment="Left" Margin="10,228,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <Label Content="Full Name:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="125,13,0,0" TextWrapping="Wrap" Text="Drew Ryder" VerticalAlignment="Top" Width="120"/>
         <Label Content="Scheduled Date:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
