@@ -1,6 +1,6 @@
 # patientmatch
 
-Microsoft Garage Jump Into AI Hackathon April 2018
+Microsoft Hackathon 2018
 
 ## Goal
 Prevent wrong patient medical errors through facial recognition
