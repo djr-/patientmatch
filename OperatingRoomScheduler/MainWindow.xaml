@@ -15,10 +15,12 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="125,45,0,0" TextWrapping="Wrap" Text="2018-08-01" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="125,73,0,0" TextWrapping="Wrap" Text="13:00" VerticalAlignment="Top" Width="120" TextAlignment="Left"/>
         <Image HorizontalAlignment="Left" Height="235" Margin="260,13,0,0" VerticalAlignment="Top" Width="180" Source="C:\PatientMatch\me.jpg" />
-        <Label Content="Procedure:" HorizontalAlignment="Left" Margin="10,137,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="125,106,0,0" TextWrapping="Wrap" Text="Dr. Barber" VerticalAlignment="Top" Width="120" TextAlignment="Left"/>
-        <Label Content="Physician:" HorizontalAlignment="Left" Margin="10,106,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="125,140,0,0" TextWrapping="Wrap" Text="Shave his beard" VerticalAlignment="Top" Width="120" TextAlignment="Left"/>
+        <Label Content="Procedure:" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="125,132,0,0" TextWrapping="Wrap" Text="Dr. Barber" VerticalAlignment="Top" Width="120" TextAlignment="Left"/>
+        <Label Content="Physician:" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="125,163,0,0" TextWrapping="Wrap" Text="Shave his beard" VerticalAlignment="Top" Width="120" TextAlignment="Left"/>
+        <Label Content="Room Number:" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.764,-0.057"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="125,101,0,0" TextWrapping="Wrap" Text="123" VerticalAlignment="Top" Width="120" TextAlignment="Left"/>
     </Grid>
 </Window>
 
