@@ -89,18 +89,18 @@ namespace PatientDetector
 
                         if (verifyResult.IsIdentical)
                         {
-                            messageElement.Text = $"Patient match: {expectedPatient.PatientName}";
+                            messageElement.Text = $"Patient found: {expectedPatient.PatientName}";
                         }
                         else
                         {
-                            messageElement.Text = $"Patient not found in image: {expectedPatient.PatientName}";
+                            messageElement.Text = $"Patient not found!";
                         }
                     }
                 }
             }
             catch (FaceAPIException e)
             {
-                messageElement.Text = e.ErrorMessage;
+                messageElement.Text = $"Patient not found!";
             }
             catch (Exception e)
             {

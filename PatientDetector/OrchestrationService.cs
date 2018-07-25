@@ -26,10 +26,12 @@ namespace PatientDetector
 
         public RoomOrchestrationService()
         {
+            Guid guidForMeJpg = Guid.Parse("0eb7c2a9-2d69-4a50-9b0b-41695bdac620"); // Temporary for hackathon.
+
             var fakePatient = new PatientInfo()
             {
-                PatientFaceId = new Guid(), //TODO: Update this line with your detected face guid.
-                PatientName = "John Smith",
+                PatientFaceId = guidForMeJpg, //TODO: Update this line with your detected face guid.
+                PatientName = "Drew Ryder",
                 RoomNumber = 123
             };
 
