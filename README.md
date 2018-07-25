@@ -1,4 +1,4 @@
-# patientmatch
+# Patient Match
 
 Microsoft Hackathon 2018
 
